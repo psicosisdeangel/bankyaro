@@ -1,0 +1,134 @@
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #DAD7CD;
+  background-size: 40px 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Tarjeta principal */
+.login-card {
+  background-color: white;
+  border-radius: 25px;
+  padding: 40px 30px;
+  width: 330px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  background: linear-gradient(to bottom, #A3B18A 45%, #ffffff 45%);
+  position: relative;
+}
+
+/* Encabezado */
+.login-header {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+.bank-name {
+  color: #3A5A40;
+  font-size: 30px;
+}
+
+/* Texto de bienvenida */
+.welcome {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 40px 12px 40px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+
+.input-group input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  font-size: 16px;
+  color: gray;
+}
+
+/* Opciones */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 5px;
+  color: #333;
+}
+
+.options .forgot {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.options .forgot:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  background-color: #A3B18A;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 0;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 8px rgba(20, 77, 65, 0.3);
+}
+
+.login-btn:hover {
+  opacity: 0.85;
+}
+
+/* Sign up */
+.signup-text {
+  font-size: 13px;
+  color: #555;
+  margin-top: 25px;
+}
+
+.signup-link {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: 500;
+}
+.signup-text a {
+  color: #9CA986;
+  text-decoration: none;
+}
+.signup-link:hover  {
+  text-decoration: underline;
+}

@@ -10,7 +10,7 @@ export function Footer() {
           <a>Privacidad</a>
           <a>Ayuda</a>
         </nav>
-        <small>©️ 2024 Bankyaro. Todos los derechos reservados.</small>
+        <small>©️ 2025 Bankyaro. Todos los derechos reservados.</small>
       </div>
     </footer>
   )
