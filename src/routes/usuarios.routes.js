@@ -3,6 +3,8 @@ import { methodsUsers } from "../controladores/usuarios.controller.js";
 
 const router = Router();
 
-router.get("/suarios", methodsUsers.createUser);
+router.post("/usuarios", methodsUsers.createUser);
+router.get("/usuarios", methodsUsers.getUsuarios);
 
-export default router;
+
+export default router;  

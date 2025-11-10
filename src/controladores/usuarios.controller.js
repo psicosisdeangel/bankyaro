@@ -16,10 +16,25 @@ const createUser = async (req, res) =>{
     }
 
 }
+
+const getUsuarios = async (req, res) => {
+    try{
+        const connection = await getConnection();
+        const result = await connection.query('SELECT numeroId, nombre, edad, correo, ciudad FROM usuarios')
+
+        res.json(result[0]);
+    }catch(error){
+        console.log(error);
+    }
+
+    }
+
+
     
 
 
 export const methodsUsers = {
     createUser,
+    getUsuarios
 
 }
